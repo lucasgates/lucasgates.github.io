@@ -188,23 +188,23 @@ section {
   right: 15px;
   bottom: 15px;
   z-index: 995;
-  background: #a904df;
+  background: #90ffdf;
   padding: 8px;
   border-radius: 4px;
   transition: all 0.4s;
 }
 
 .scroll-top:hover {
-  color: var(--color-white);
-  box-shadow: 1px 1px 15px #a904df;
-  background: var(--color-primary-light);
+  color: #182130;
+  box-shadow: 1px 1px 15px #90ffdf;
+  background: var(--color-tertiary);
 }
 
 .scroll-top.active {
   visibility: visible;
   opacity: 1;
-  color: var(--color-white);
-  background: var(--color-primary);
+  color: #141A26;
+  background: var(--color-tertiary);
 }
 
 @media screen and (max-width: 768px) {
