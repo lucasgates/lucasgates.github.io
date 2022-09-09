@@ -550,7 +550,8 @@ section {
   width: 100%;
   min-height: 50vh;
   background: url("../img/hero-bg.png") center center;
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
   position: relative;
   padding: 120px 0 60px;
 }
@@ -680,7 +681,7 @@ section {
   padding: 0;
   background: var(--color-black);
   background: url("../img/hero-bg.png") center center;
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
@@ -1014,9 +1015,13 @@ section {
   width: 100%;
   min-height: 50vh;
   background: url("../img/hero-bg.png") center center;
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
   position: relative;
   padding: 120px 0 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .hero-static h2 {
