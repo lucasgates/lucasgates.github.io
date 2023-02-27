@@ -1139,6 +1139,21 @@ section {
   box-shadow: 0px 0 15px 0 #a904df;
 }
 
+.featured-services .buy {
+  background: #90ffdf;
+  color: #182130;
+}
+
+.featured-services .buy h4 a {
+  color: #182130; 
+}
+
+.featured-services .buy:hover {
+  transform: translateY(-10px);
+  box-shadow: 1px 1px 15px #90ffdf;
+  background: var(--color-tertiary);
+}
+
 .featured-services .service-item:hover h4 a {
   color: var(--color-primary);
 }
