@@ -5,5 +5,5 @@ New website Do Zero à Hacker.
    * lucasgates.github.io
 
 ## Links
-- [Buy](https://hotmart.com/pt-br/marketplace/produtos/do-zero-a-hacker/T57835171N)
+- [Buy](https://pay.hotmart.com/T57835171N)
 - [Login](http://curso.lucasbgates.com/)

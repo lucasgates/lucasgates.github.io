@@ -1024,6 +1024,29 @@ section {
   justify-content: center;
 }
 
+.hero-static-sold {
+  width: 100%;
+  min-height: 100vh;
+  background: url("../img/hero-bg-sold.png") center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  padding: 120px 0 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero-static-space {
+  width: 100%;
+  min-height: 40vh;
+  position: inherit;
+  padding: 120px 0 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .hero-static h2 {
   margin: 0 0 10px 0;
   font-size: 48px;
