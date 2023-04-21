@@ -1037,9 +1037,35 @@ section {
   justify-content: center;
 }
 
+.hero-static-analysis {
+  width: 100%;
+  min-height: 100vh;
+  background: url("../img/hero-bg-analysis.png") center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  padding: 120px 0 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero-static-waiting {
+  width: 100%;
+  min-height: 100vh;
+  background: url("../img/hero-bg-processing.png") center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  padding: 120px 0 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .hero-static-space {
   width: 100%;
-  min-height: 55vh;
+  min-height: 60vh;
   position: inherit;
   padding: 120px 0 60px;
   display: flex;
